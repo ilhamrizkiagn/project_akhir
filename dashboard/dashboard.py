@@ -24,8 +24,8 @@ def create_rent_weather(df):
     return day_weather
 
 # Load cleaned data
-day_df = pd.read_csv("day.csv")
-hour_df = pd.read_csv("hour.csv")
+day_df = pd.read_csv("C:/Users/asus/project_akhir/dashboard/day.csv")
+hour_df = pd.read_csv("C:/Users/asus/project_akhir/dashboard/hour.csv")
 
 #membuat copy data day
 day_1 = day_df.copy()
