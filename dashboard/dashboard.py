@@ -17,7 +17,7 @@ def create_rent_day(df):
     return rent_day
 
 # Load cleaned data
-hour_df = pd.read_csv("hour.csv")
+hour_df = pd.read_csv("dashboard/hour.csv")
 
 # mengganti nilai kolom 'season'
 hour_df['season'] = hour_df['season'].replace({1:'Springer',2:'Summer',3:'Fall',4:'Winter'})
